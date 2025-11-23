@@ -32,7 +32,23 @@ Premium luxury barbershop landing page với 3D effects sang trọng:
 
 **Theme:** Luxury Dark (burgundy, gold, deep blacks)
 
-### 3. TechVN
+### 3. 3D Interactive Barbershop 🎮 NEW
+**URL:** `/3d-shop`
+
+Full 3D interactive virtual barbershop experience:
+- 🏪 **3D Barbershop Interior** - Complete shop với chairs, mirrors, shelves
+- 💺 **Interactive Barber Chairs** - Click để select, hover effects
+- 🪞 **Realistic Mirrors** - Với light bulbs và reflections
+- 🛋️ **Waiting Area** - Sofa và reception desk
+- 📦 **Product Shelves** - 3D product displays
+- 🎮 **Full Camera Controls** - Orbit, zoom, pan
+- 👆 **Interactive Elements** - Click objects để xem info
+- 🌟 **Real-time Shadows** - Contact shadows và lighting
+- 🎨 **Professional Materials** - Metallic, roughness, realistic textures
+
+**Theme:** Full 3D Interactive WebGL Experience
+
+### 4. TechVN
 **URL:** `/techvn`
 
 Landing page công ty công nghệ với:
