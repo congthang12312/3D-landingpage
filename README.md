@@ -18,7 +18,21 @@ Chuyên nghiệp landing page cho tiệm cắt tóc nam với:
 
 **Theme:** Dark (đen, vàng gold, đỏ vintage)
 
-### 2. TechVN
+### 2. The Parlour - Luxury Barbershop ⭐ NEW
+**URL:** `/luxury`
+
+Premium luxury barbershop landing page với 3D effects sang trọng:
+- 🎪 **3D Barber Pole** - Rotating barber pole với gold caps
+- ✨ **Luxury Particles** - Gold & white particle system
+- 🏆 **Premium Design** - Gradient text, glass morphism, marble texture
+- ⏳ **Timeline Animation** - Interactive company history
+- 👑 **Master Barbers** - Showcase với hover effects
+- 💎 **High-end Services** - Premium service cards
+- 🎨 **Sophisticated Theme** - Burgundy, gold, black palette
+
+**Theme:** Luxury Dark (burgundy, gold, deep blacks)
+
+### 3. TechVN
 **URL:** `/techvn`
 
 Landing page công ty công nghệ với:
