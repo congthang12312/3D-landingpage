@@ -89,7 +89,7 @@ const ServiceCard = ({ service, index, isInView }: ServiceCardProps) => {
           y: isHovered ? -8 : 0,
         }}
         transition={{ duration: 0.3 }}
-        className={`h-full bg-gray-800/50 backdrop-blur-sm border-2 rounded-lg p-6 transition-all ${
+        className={`h-full bg-gray-800/50 backdrop-blur-sm border-2 rounded-lg p-6 transition-all flex flex-col ${
           service.popular
             ? 'border-amber-500 bg-gradient-to-b from-amber-500/5 to-transparent'
             : 'border-gray-700 hover:border-amber-500/50'
@@ -97,7 +97,7 @@ const ServiceCard = ({ service, index, isInView }: ServiceCardProps) => {
       >
         {/* Header */}
         <div className="text-center mb-6 pb-6 border-b border-gray-700">
-          <h3 className="text-2xl font-bold text-white mb-2 font-serif">
+          <h3 className="text-2xl font-bold text-white mb-2 font-serif min-h-[3.5rem] flex items-center justify-center">
             {service.name}
           </h3>
           <div className="flex items-baseline justify-center gap-2 mb-2">
@@ -114,12 +114,12 @@ const ServiceCard = ({ service, index, isInView }: ServiceCardProps) => {
         </div>
 
         {/* Description */}
-        <p className="text-gray-300 text-center mb-6 leading-relaxed">
+        <p className="text-gray-300 text-center mb-6 leading-relaxed min-h-[3rem]">
           {service.description}
         </p>
 
-        {/* Features */}
-        <ul className="space-y-3 mb-6">
+        {/* Features - flex-1 để chiếm không gian còn lại */}
+        <ul className="space-y-3 mb-6 flex-1">
           {service.features.map((feature) => (
             <li key={feature} className="flex items-start gap-2 text-gray-300">
               <svg className="w-5 h-5 text-amber-400 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -130,7 +130,7 @@ const ServiceCard = ({ service, index, isInView }: ServiceCardProps) => {
           ))}
         </ul>
 
-        {/* CTA Button */}
+        {/* CTA Button - luôn ở cuối */}
         <motion.a
           href="#booking"
           whileHover={{ scale: 1.02 }}
